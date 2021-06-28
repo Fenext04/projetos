@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar a Idade</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificar a sua idade</h1>
+    </header>
+    <section>
+        <div>
+            Informe o ano do seu nascimento:<br>
+            <input type="number" id="ano_Nascimento" min="0"><br>
+            Sexo:<br>
+            <input type="radio" name="sexo" id="masc" checked>
+            <label for="masc">Masculino</label>
+            <input type = radio name="sexo" id="femi">
+            <label for="femi">Feminino</label> <br>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+        <div id="resposta">
+
+        </div>
+    </section>
+    <footer>
+        <h4> &copy; Mateus V. S. Melo</h4>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

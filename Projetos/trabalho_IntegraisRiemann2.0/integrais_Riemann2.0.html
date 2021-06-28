@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrais de Riemann</title>
+    <link rel="stylesheet" type="text/css "href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Integrais de Riemann</h1>
+    </header>
+    <section>
+        <div class="questao">
+            
+            <h2>Questão 1</h2>
+            <p>Implementar um programa computacional para estimar a área sob a parábola <strong>∫[0;1] x² dx.</strong> (a região parabólica S ilustrada na Figura 1). Use retângulos para estimar a área desejada. Em primeiro lugar, a aproximação da região S deve utilizar retângulos e depois tomar o limite das áreas desses retângulos à medida que aumenta-se o número de retângulos.</p>
+            <img src="imagens/q1_e_q2.png" width="300px"><br>
+            <label for="nR_questao1">Selecione quantos <strong>N</strong> retangulos serão usados para o cálculo:</label>
+            <input type="number" name="n_retangulos" id="nR_questao1">
+            <input type="button" value="Calcular" onclick="calcular1()">
+            <p id="resposta_questao1"></p>
+        
+    
+    
+        </div>
+    
+        <div class="questao">
+            <h2>Questão 2</h2>
+            <p>Você deve considerar as extremidades a direita e a esquerda dos subintervalos
+                e construir a tabela abaixo com os valores das áreas. Fazer análises dos seus
+                resultados</p>
+                <img src="imagens/q1_e_q2.png" width="300px">
+    
+                <table border="1 px solid red">
+                   <tr>
+                        <th>n (número de faixas)</th>
+                        <th>Ln (extremidade a direita)</th>
+                        <th>Ln (extremidade a esquerda)</th>
+                   </tr>
+                   <tr>
+                       <td>10</td>
+                       <td id="respQ2A"></td>
+                       <td id="respQ2A_Esquerda"></td>
+                   </tr>
+                   <tr>
+                        <td>30</td>
+                        <td id="respQ2B"></td>
+                        <td id="respQ2B_Esquerda"></td>
+                   </tr>
+                   <tr>
+                        <td>50</td>
+                        <td id="respQ2C"></td>
+                        <td id="respQ2C_Esquerda"></td>
+                   </tr>
+                   <tr>
+                        <td>100</td>
+                        <td id="respQ2D"></td>
+                        <td id="respQ2D_Esquerda"></td>
+                   </tr>
+                   <tr>
+                        <td>1000</td>
+                        <td id="respQ2E"></td>
+                        <td id="respQ2E_Esquerda"></td>
+                   </tr>
+                </table>
+                <input type="button" value="Calcular N = 10" onclick="calcular2A()">
+                <input type="button" value="Calcular N  =  30" onclick="calcular2B()">
+                <input type="button" value="Calcular N  =  50" onclick="calcular2C()">
+                <input type="button" value="Calcular N  =  100" onclick="calcular2D()">
+                <input type="button" value="Calcular N  =  1000" onclick="calcular2E()">
+        </div>
+        <div class="questao">
+            <h2>Questão 3</h2>
+            <p>Fazer um programa computacional para estimar a área da região que está sob o
+                gráfico da função abaixo , no intervalo [0,2].<br>
+                <img src="imagens/q3.png" width="100px">
+                <br> <strong>A)</strong> Na estimativa da área, tome como pontos
+                amostrais os pontos médios, usando <strong>n</strong> subintervalos. Construir a tabela abaixo
+                com os valores das áreas. Fazer análises dos seus resultados.<br>
+                <strong>B)</strong> Encontre uma
+                expressão para a área como um limite.</p>
+    
+                <table border="1 px solid red">
+                    <tr>
+                         <th>n (número de faixas)</th>
+                         <th>Ln (extremidade a direita)</th>
+                         
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td id="respQ3A"></td>
+                        
+                    </tr>
+                    <tr>
+                         <td>4</td>
+                         <td id="respQ3B"></td>
+                         
+                    </tr>
+                    <tr>
+                         <td>8</td>
+                         <td id="respQ3C"></td>
+                         
+                    </tr>
+                    <tr>
+                         <td>10</td>
+                         <td id="respQ3D"></td>
+                         
+                    </tr>
+                    
+                 </table>
+                 <input type="button" value="Calcular N = 2" onclick="calcular3A()">
+                 <input type="button" value="Calcular N = 4" onclick="calcular3B()">
+                 <input type="button" value="Calcular N = 8" onclick="calcular3C()">
+                 <input type="button" value="Calcular N = 10" onclick="calcular3D()">
+        </div>
+        <div class="questao">
+            <h2>Questão 4</h2>
+            <p>Use a propriedade 8, descrita abaixo, para estimar a integral da função abaixo:<br>
+            <img src="imagens/q4.png" width="200px"><br></p>
+            <p><strong>8</strong>. <i>Se m <= M para a <= x <=b, então<br>
+            m.(b-a) <= ∫[a;b] f(x)dx. <= M(b-a)</i> </p>
+            <img src="imagens/q4_grafico.png"><br>
+            
+            <input type="button" value="Calcular" onclick="calcular4()">
+            <p id="resposta_questao4">Resposta: </p>
+    
+    
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    </html>
+</body>

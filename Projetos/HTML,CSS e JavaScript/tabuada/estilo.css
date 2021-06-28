@@ -1,0 +1,30 @@
+body{
+    font-size: 16pt;
+    font-family: Fira Code;
+    background-color: #62aafd;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+        width: 500px;
+        margin: auto;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+        padding: 8px;
+        font-size: 12pt;}
+
+footer{
+    text-align: center;
+    margin-top: 300px;
+    font-style: italic;
+}
+
+input{
+      margin: 8px;}
+
+#tab{
+    margin: 8px;
+}

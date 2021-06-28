@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do Dia</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificar idade</h1>
+    </header>
+    <section>
+        Informe o ano de nascimento:
+        <input type="number" id="nascimento" max="100"><br>
+        Sexo:
+        <input type="radio" name="sexo" id="masculino" checked>
+        <label for="maculino">Masculino</label>
+        <input type="radio" name="sexo" id="feminino">
+        <label for="feminino">Feminino</label><br>
+        <input type="button" value="Verificar" onclick="verificar()">
+
+        <div id="resposta">
+            
+        </div>
+        
+    </section>
+    <footer>
+        &copy; Mateus V. S. Melo
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

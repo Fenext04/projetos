@@ -1,0 +1,28 @@
+body{
+    font-size: 16pt;
+    background-color: rgb(160, 160, 250);
+    font-family: Fira Code;
+}
+header{
+    text-align: center;
+    color: white;
+}
+section{
+    width: 500px;
+    background-color: white;
+    margin: auto;
+    
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+padding: 10px;
+font-size: 12pt;}
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 700px;
+}
+#foto{
+    width: 250px;
+    padding: 8px;
+    
+}

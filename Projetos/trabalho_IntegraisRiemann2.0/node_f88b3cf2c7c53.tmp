@@ -1,0 +1,8 @@
+var n = 0.444444444
+q = 0
+var valor_dez = 1
+while (n <=1){
+    n*10
+    q +=1
+}
+console.log(`Quantidade de dez ${q}`)

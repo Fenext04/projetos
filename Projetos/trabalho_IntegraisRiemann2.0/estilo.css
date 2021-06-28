@@ -1,0 +1,19 @@
+body{font-family: fira code;
+    background-color: #272822;
+    
+    }
+    header{text-align: center;}
+section{margin: auto;
+        width: 500px;}
+h1{color: #F92672;}
+h2{color:#66D9EF;}
+strong{color:#A6E22E;}
+th{color: #E6DB74;}
+input{margin:5px;}
+label{
+        display: block;
+        
+}
+img{margin:10px;}
+.questao{width: 500px;
+        color:white;}
