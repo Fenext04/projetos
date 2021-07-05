@@ -1,0 +1,82 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.main-bg{
+    background: black url('../assets/The-Boys-segunda-temporada-scaled.jpg') ;
+    background-size: cover;
+    height: 100vh;
+    font-family:Roboto;
+}
+
+
+#conteudoNavbarSuportado a:hover{
+    background-color: red;
+    color: white;
+}
+#conteudo_principal{
+    background:  url("../assets/foto_principal.jpg") ;
+    width: 75%;
+    height: 85%;
+    clear:both;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 8px;
+    border: 2px solid black;
+}
+#conteudo_cadastro{
+    background:#f3f3f3 ;
+    width: 25%;
+    margin: 0 auto;
+    padding: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom: 1px solid black;
+}
+#conteudo_lista{
+    background:#f3f3f3 ;
+    width: 50%;
+    margin: 0 auto;
+    padding: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom: 1px solid black;
+}
+.area_cadastro{
+    width: 80%;
+    margin: 0 auto;
+   
+    
+    
+}
+form{margin-top: 50px;}
+input{margin-bottom: 8px;}
+.escolha{padding: 5px 10px;}
+.butao{
+    margin-left: 50px;
+}
+
+#conteudo_principal p {
+    background:rgb(41, 39, 39) ;
+    color: white;
+    width: 50%;
+    margin-top: 80px;
+    padding: 5px;
+    border-radius: 8px;
+    
+}
+#conteudo_principal a{
+    color: rgb(241, 32, 32);
+    text-decoration: none;
+    
+}
+#conteudo_principal a:hover{
+    color: rgb(255, 154, 154);
+    text-decoration: none;
+    
+}
+
+
+
+
+

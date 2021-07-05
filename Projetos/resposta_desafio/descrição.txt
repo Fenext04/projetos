@@ -1,0 +1,3 @@
+- O banco de dados está na pasta "databases";
+
+C:\Users\mateu\Desktop\resposta_desafio\novo-desafio-pr-tico\databases
