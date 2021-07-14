@@ -1,5 +1,6 @@
-<?php 
-  include_once("../backend_php/classes/conexao.php");
+<?php
+require("../backend_php/classes/recuperar_personagem.php")
+  
 ?>
 
 <!DOCTYPE html>
@@ -61,14 +62,12 @@
     <div id="conteudo_lista">
     
       <?php 
-            $query2 = "select * from personagens_tabela";
-            $stmt2 =$conexao->query($query2);
-            $lista_usuarios = $stmt2->fetchAll(PDO::FETCH_ASSOC);
+           
             $contador = 0;
             foreach($lista_usuarios as $key =>$values){
               if($values["alinhamento"] == "The_Boys"){
                 echo "<strong>Nome</strong>: ";
-                echo "<span style='color:red;'>";
+                echo "<span style='color:blue;'>";
                 echo $values["nome"];
                 echo "</span><br>";
                 echo "<strong>Intérprete</strong>: ";

@@ -16,8 +16,8 @@ body{
 }
 #conteudo_principal{
     background:  url("../assets/foto_principal.jpg") ;
-    width: 75%;
-    height: 85%;
+    width: 1280px;
+    height: 720px;
     clear:both;
     margin: 0 auto;
     border-radius: 3px;

@@ -52,10 +52,24 @@
         </ul>
       </div>
     </nav>
+
+    <?php
+      if(isset($_GET["inclusao"]) and $_GET["inclusao"] == 1){ ?>
+        <div class="bg-success pt-2 text-white d-flex justify-content-center">
+        <h5>Personagem inserido com sucesso!</h5>
+    </div>
+      <?php }else if(isset($_GET["inclusao"]) and $_GET["inclusao"] == 2){ ?>
+        <div class="bg-danger pt-2 text-white d-flex justify-content-center">
+        <h5>Erro! Preencha todo o formulário</h5>
+    </div>
+      <?php }
+    ?>
+
+    
     <div id="conteudo_cadastro">
       <div class="area_cadastro">
         <h2>Criação de personagem: </h2>
-        <form action="../backend_php/classes/Personagem.php" method="POST">
+        <form action="../backend_php/classes/inserir_personagem.php" method="POST">
           <label for="nome">Nome:</label><br>
           <input type="text" name="nome" ><br>
           <label for="interprete">Intérprete:</label><br>
@@ -70,7 +84,7 @@
           <label for="biografia"> Biografia: </label><br>
           <textarea name="biografia" rows="3">
 
-          </textarea><input type="submit" value="Enviar" name="cadastro" class="butao">
+          </textarea><input type="submit" value="Enviar" class="butao">
           
 
         </form>  
