@@ -1,0 +1,20 @@
+body{background-color:#4085d8;
+     font-size: 16pt;
+     font-family: Fira Code; 
+             }
+
+h1{color: white;
+    text-align: center;}
+input{margin: 8px;}
+section{background-color: white;
+        width: 500px;
+        border-radius: 10px;
+        padding: 8px;
+        margin: auto;
+        font-size: 12pt;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.397);}
+footer{
+    text-align: center;
+    font-size: 12pt;
+    font-style: italic;
+}

@@ -1,0 +1,50 @@
+body{
+    background-color: #efefef;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;}
+#principal{width: 65%;
+           min-width: 620px; 
+            margin: 0 auto;}
+
+#menu{background: #1e305e;
+      background: linear-gradient(to bottom,#1e305e, #0c2155);
+      width: 50%px;
+      min-width: 620px;   
+    text-align: center;
+      font-size: 18pt;
+      
+        }
+#conteudo{background: white;
+          padding: 10px;  }
+
+
+
+#capa{
+  width: 100%;
+  margin:  auto;
+  
+ 
+}
+h1{
+    font-size: 16pt;
+    color: #0d2358;
+} 
+        
+a{text-decoration: none;
+  color: white; 
+  padding-left: 40px;
+  padding-right: 40px;   }
+  a:hover, .selecionado {
+    color:#1e305e;
+    background-color: white;
+    
+  }
+
+
+.fotos{
+text-align: center;
+
+}
+.fotos img{
+  width: 500px;
+}

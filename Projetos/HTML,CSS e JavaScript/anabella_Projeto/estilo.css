@@ -1,12 +1,12 @@
 body{background-image: url("imagens/fundo.png");
      font: 16px "Snell Roundhand", cursive;
-     margin: 0px 500px;   }
+       }
 a{text-decoration:none;
   color:#4b566a;
   padding: 5px;   }
-#principal{border:1px solid red;
+#principal{
            width: 900px;
-            }
+           margin: 0 auto; }
 h1{color:#828271;
    font-size: 1.2em; }
 #menu{background: #c5c5b2;
@@ -25,4 +25,8 @@ h1{color:#828271;
 .img_Campanha{
     border: 10px solid #c3c3ae;
     
+}
+#menu a:hover{
+  color: #c5c5b2;
+  background-color:#828271 ;
 }

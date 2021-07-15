@@ -1,0 +1,145 @@
+body{
+    font-family: Fira Code;
+    font-size: 1em;
+    background-color: rgb(27, 27, 27);
+    margin: 0;
+}
+header{
+    background-color: #fcee09;
+    height: 150px;
+    text-align: center;
+    
+}
+strong{
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+#logo{
+    width: 350px;
+    margin-top: 8px;
+}
+a{
+    text-decoration: none;
+}
+
+
+#menu{
+    padding: 10px;
+}
+#menu a:link, #menu a:visited{
+    padding: 8px 12px;
+    color: black;
+}
+#menu a:hover{
+    padding: 8px 12px;
+    color: #fcee09;
+    background-color: black;
+}
+section{background: #e6e6e6;
+    height: 1150px;
+    
+}
+
+#principal{width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+
+#area_postagem{
+    width: 660px;
+    float: left;
+    
+}
+#area_lateral{
+    width: 240px;
+    float: right;}
+    
+ 
+    
+
+#cabeçalho2{
+    background-color: black;
+    height: 150px;
+    text-align: center;
+    
+}
+#menu2 {
+    padding: 10px;
+}
+#menu2 a:link, #menu2 a:visited{
+    padding: 8px 12px;
+    color: #db0d15;
+}
+#menu2 a:hover{
+    padding: 8px 12px;
+    color: black;
+    background-color: #db0d15;
+}
+#principal2{width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+#area_postagem2{
+    width: 660px;
+    float: left;
+    
+}
+#area_lateral2{
+    width: 240px;
+    float: right;
+    
+}
+
+#area_lateral i, #area_lateral2 i{
+    font-size: 2em;
+    color:black;
+}
+
+.post{
+    background-color: #fcee09;
+    padding: 10px;
+    margin-bottom:15px;
+    border-radius: 15px ;
+}
+
+.post_lateral{
+    background-color: #fcee09;
+    border-radius: 7.5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.post_lateral a{
+    padding: 5px;
+    color: black;
+}
+
+
+.post2{
+    background-color: white;
+    padding: 10px;
+    margin-bottom:15px;
+    border-radius: 15px ;
+}
+
+.post_lateral2{
+    background-color: white;
+    border-radius: 7.5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+.post_lateral2 a{
+    padding: 5px;
+    color: black;
+}
