@@ -1,0 +1,56 @@
+body{
+   font-family: "Snell Roundhand", cursive;
+   background: url("../imagens/fundo.png") !important;
+}
+
+.menu_letra{
+    color: #4b566a !important;
+
+}
+
+#capa{
+    width: 100%;
+}
+
+.area_imagens{
+    background: #e8e8d9;
+    padding: 20px;    
+}
+.conteudo{
+    margin-top: 10px;
+    background: #e8e8d9;
+    padding: 10px;
+    border-radius: 5px;
+}
+.biografia{
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    background: #e8e8d9;
+    padding: 80px;
+    border-radius: 5px;
+    text-align: center;
+}
+.imagens_modelo{
+    width: 100%;
+    border: 2px solid #4b566a;
+    border-radius: 5px;
+}
+.conteudo_imagens{
+    margin-bottom: 80px ;
+}
+
+footer{
+    background-color: #c5c5b2;
+    text-align: center;
+    height: 5em;
+    
+}
+
+
+#rodape{
+    position: relative;
+    top:25px;
+    
+    
+
+}
