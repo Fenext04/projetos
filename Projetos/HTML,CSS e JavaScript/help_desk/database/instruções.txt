@@ -1,0 +1,1 @@
+Crie um database com o nome "helps-desk" e importe a base de dados .sql para usar o programa.
